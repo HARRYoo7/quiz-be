@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.16"
+  },
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "env-cmd": "^8.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd ./config/dev.env node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
